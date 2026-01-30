@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "yamaha-inspector",
+    "slug": "yamaha-inspector",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./yamaha-inspector/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./yamaha-inspector/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./yamaha-inspector/GoogleService-Info.plist",
+      "bundleIdentifier": "com.yamaha.inspector",
+      "infoPlist": {
+        "NSCameraUsageDescription": "O Yamaha Inspector precisa acessar a câmera para fotografar as motocicletas durante a vistoria técnica.",
+        "NSPhotoLibraryUsageDescription": "O Yamaha Inspector precisa acessar sua galeria para você selecionar fotos das motocicletas.",
+        "NSPhotoLibraryAddUsageDescription": "O Yamaha Inspector precisa salvar fotos das vistorias na sua galeria."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./yamaha-inspector/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "googleServicesFile": "./yamaha-inspector/google-services.json",
+      "package": "com.yamaha.inspector"
+    },
+    "web": {
+      "favicon": "./yamaha-inspector/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
+  }
+}
